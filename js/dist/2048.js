@@ -20,6 +20,7 @@ var Game = (function ($) {
 			listening = true;
 		}
 	}
+
 	// 检查并处理无法继续游戏的情况，若无法继续则结束当前一局游戏
 	function checkGameOver() {
 		// 检查无法继续合并的情况
